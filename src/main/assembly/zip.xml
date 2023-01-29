@@ -16,7 +16,8 @@
             <unpack>true</unpack>
             <unpackOptions>
                 <excludes>
-                    <exclude>${project.groupId}:${project.artifactId}:jar:*</exclude>
+                    <exclude>META-INF/MANIFEST.MF</exclude>
+                    <exclude>META-INF/maven/**</exclude>
                 </excludes>
             </unpackOptions>
         </dependencySet>
